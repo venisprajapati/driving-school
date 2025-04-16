@@ -11,7 +11,7 @@ body {
 /* Header Styles */
 header h1 {
     font-size: 2.5rem;
-    color: #218838;
+    color: #FF5722; /* Orange color for the title */
     margin: 0;
     font-weight: 500;
     display: flex; /* Use flexbox to align the title and hamburger icon */
@@ -31,8 +31,9 @@ header h1 {
 
 h2 {
     font-size: 1.8rem;
-    color: #4CAF50; /* Soft green for section titles */
+    color: #FF5722; /* Orange for section titles */
     margin-bottom: 0.5rem;
+    margin-top: 0;
 }
 
 p, li {
@@ -42,7 +43,7 @@ p, li {
 }
 
 header a {
-    color: #4CAF50; /* Soft green for links */
+    color: #FF5722; /* Orange for links */
     text-decoration: none;
     transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
     padding: 0.4rem 0.8rem; /* Slightly larger padding for a more prominent button look */
@@ -54,21 +55,20 @@ header a {
 }
 
 header a:hover {
-    color: #4CAF50; /* Green text on hover */
-    background-color: #E8F5E9; /* Light green background on hover */
-    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2); /* Inner shadow for a button effect */
+    color: #FF5722; /* Orange text on hover */
+    background-color: #FFE0B2; /* Light orange background on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), inset 0 4px 6px rgba(0, 0, 0, 0.1); /* Enhanced shadow for a more realistic effect */
     border-radius: 12px; /* Rounded borders for a smoother button look */
-    transform: translateY(-2px); /* Slight lift effect on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
 }
 
 /* Header Styles */
 header {
-    background: #C8E6C9; /* Darker green background for header */
+    background: #FFE0B2; /* Light orange background for header */
     color: #333;
     padding: 1rem 0;
     text-align: center;
     position: sticky;
-
     z-index: 1000;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #C8E6C9; /* Light green hover effect */
+    background-color: #FFE0B2; /* Light orange hover effect */
 }
 
 /* Responsive Design for Navigation */
@@ -136,7 +136,7 @@ nav {
     .nav-links {
         display: none; /* Hide navigation links by default */
         flex-direction: column; /* Stack links vertically */
-        background-color: #C8E6C9; /* Light green background for dropdown */
+        background-color: #FFE0B2; /* Light orange background for dropdown */
         position: absolute;
         top: 100%; /* Position below the navigation bar */
         right: 0;
@@ -225,17 +225,17 @@ table th, table td {
 }
 
 table th {
-    background-color: #C8E6C9; /* Light green for table headers */
+    background-color: #FFE0B2; /* Light orange for table headers */
     color: #333;
 }
 
 table tr:nth-child(even) {
-    background-color: #F1F8E9; /* Very light green for alternating rows */
+    background-color: #FFF3E0; /* Very light orange for alternating rows */
 }
 
 /* Footer Styles */
 footer {
-    background: #616161; /* Neutral dark gray for footer */
+    background: #48322a; /* Neutral orange for footer */
     color: #ffffff; /* Light gray for text for better contrast */
     text-align: center;
     padding: 1rem 0;
@@ -247,14 +247,14 @@ footer p {
 }
 
 footer a {
-    color: #82fe88; /* Soft green for footer links */
+    color: #FF5722; /* Orange for footer links */
     text-decoration: none;
     font-weight: bold; /* Slightly bold for emphasis */
 }
 
 footer a:hover {
     text-decoration: bold;
-    color: #16f221; /* Rich green on hover for better visibility */
+    color: #E64A19; /* Darker orange on hover for better visibility */
 }
 
 /* Responsive Design */
